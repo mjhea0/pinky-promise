@@ -1,0 +1,28 @@
+body {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.container {
+  background-color: #eee;
+  max-width: 500px;
+  padding: 20px;
+  text-align: center;
+}
+
+.writing {
+  font-size: 1.3em;
+}
+input.writing, .pad, .writing {
+  border: 1px solid black;
+}
+
+.sigWrapper {
+  border: 0px;
+}
+
+.drawItDesc {
+  border-top: 0px;
+}
+
+
