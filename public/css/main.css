@@ -21,8 +21,9 @@ input.writing, .pad, .writing {
   border: 0px;
 }
 
-.drawItDesc {
+.drawDesc {
   border-top: 0px;
+  font-style: italic;
 }
 
 

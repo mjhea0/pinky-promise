@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- stylesheets -->
     <link rel="stylesheet" media="screen" href="http://netdna.bootstrapcdn.com/bootswatch/3.0.3/united/bootstrap.min.css">
-    <link rel="stylesheet" href="jquery.signaturepad.css">
-    <link rel="stylesheet" media="screen" href="main.css">
+    <link rel="stylesheet" href="css/jquery.signaturepad.css">
+    <link rel="stylesheet" media="css/screen" href="main.css">
     <!-- scripts -->
     <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-    <script src="jquery.signaturepad.min.js"></script>
-    <script src="json2.min.js"></script>
-    <script src="main.js"></script>
+    <script src="js/jquery.signaturepad.min.js"></script>
+    <script src="js/json2.min.js"></script>
+    <script src="js/main.js"></script>
   </head>
   <body>
     <div class="container">
@@ -24,7 +24,7 @@
         <input name="name" id="name" class="writing"><br><br>
         <h4>, hereby declare:</h4>
         <textarea name="swear" id="swear" class="writing" rows="3"></textarea><br><br>
-        <h4 class="drawItDesc">Signed,</h4>
+        <h4 class="drawDesc">Signed,</h4>
         <div class="sig sigWrapper">
           <div class="typed"></div>
           <canvas class="pad" width="226" height="55"></canvas>
@@ -33,6 +33,9 @@
         <br>
         <input type="button" id="clear" class="btn btn-primary btn-lg" value="Clear">
       </form>
+      <br>
     </div>
+    <br>
+    <h4>Directions: When asked to sign a NDA, send <a href="https://github.com/mjhea0/pinky-promise/blob/master/example.png">this</a> instead.</h4>
   </body>
 </html>
